@@ -1,0 +1,13 @@
+-- syncookies =0 
+   First i set syncookie value on docker-compose.yml file as    follow.
+        sysctls:
+                - net.ipv4.tcp_syncookies=0
+   when i run command "netstat -nat", screen show me attacking status with several ips in victim server.
+
+-- syncookies =1 
+   next i set syncookie value on docker-compose.yml file as    follow.
+        sysctls:
+                - net.ipv4.tcp_syncookies=1
+   i ran again command "sudo docker-compose build, docker-compose up".
+   when i run command "netstat -nat", screen don't show me attacking status with several ips in victim server.
+   

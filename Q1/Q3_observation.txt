@@ -1,0 +1,4 @@
+First of all i ran docker-compose up,
+   i run command "telnet 10.9.0.7" and checked it with wireshark.
+as shown above screenshots, i got values "source port, destination port, Ack value, flags, sequence number" from there.
+I have changed my python code with this values and executed the .py code. I checked session values from attack on screens. 

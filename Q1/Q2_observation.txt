@@ -1,0 +1,4 @@
+First of all i ran docker-compose up,
+   i checked attack status with command "netstat -tna".
+I saw attack status with different several ips for victim server "10.9.0.5: 23" on screen.
+next I checked any parkets in wireshark.
